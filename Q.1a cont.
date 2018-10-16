@@ -1,0 +1,7 @@
+'''use one-line comprehension of create a new list and print even terms of it along with reversing it'''
+S = [x**2 for x in range(10)]
+print('original list\t',S)
+M=[x for x in S if x%2==0]
+print('list having only even numbers\t',M)
+M.reverse()
+print('second list reversed\t',M)
