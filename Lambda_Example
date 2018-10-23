@@ -1,0 +1,22 @@
+i=0
+i=int(input("Enter the value to be cubed"))
+
+def expocube(i):
+	return pow(i,3)
+
+print("cubed value is",expocube(i))
+
+result=lambda i:pow(i,2)
+
+print("Squared value is ",result(i))
+
+result=lambda i:i**2
+
+print("Squared value using ** is",result(i))
+
+atomicweights={1:12,2:4,3:32,4:17,4:16,4:100}
+
+linkedList=[]
+linkedList=sorted(atomicweights.items(),key=lambda X:X[1],reverse=True)#sorted and lambda keyword
+print(linkedList)
+print(len(atomicweights))
